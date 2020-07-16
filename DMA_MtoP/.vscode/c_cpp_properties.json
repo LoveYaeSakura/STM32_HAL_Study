@@ -1,0 +1,54 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F1xx/Include/",
+                    "${workspaceFolder}/Drivers/CMSIS/include/",
+                    "${workspaceFolder}/Drivers/STM32F1xx_HAL_Driver/Inc/",
+                    "${workspaceFolder}/Drivers/STM32F1xx_HAL_Driver/Src/",
+                    "${workspaceFolder}/Inc/",
+                    "${workspaceFolder}/Src/",
+                    "${workspaceFolder}/",
+                    "D:/gcc-arm-none-eabi-8-2018-q4-major-win32/arm-none-eabi/include",
+                    "D:/gcc-arm-none-eabi-8-2018-q4-major-win32/arm-none-eabi/include/c++/8.2.1",
+                    "D:/gcc-arm-none-eabi-8-2018-q4-major-win32/arm-none-eabi/include/c++/8.2.1/arm-none-eabi/thumb/v7-m",
+                    "D:/gcc-arm-none-eabi-8-2018-q4-major-win32/arm-none-eabi/include/c++/8.2.1/backward",
+                    "D:/gcc-arm-none-eabi-8-2018-q4-major-win32/arm-none-eabi/include/sys",
+                    "D:/gcc-arm-none-eabi-8-2018-q4-major-win32/lib/gcc/arm-none-eabi/8.2.1/include",
+                    "D:/gcc-arm-none-eabi-8-2018-q4-major-win32/lib/gcc/arm-none-eabi/8.2.1/include-fixed"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F1xx/Include/",
+                "${workspaceFolder}/Drivers/CMSIS/include/",
+                "${workspaceFolder}/Drivers/STM32F1xx_HAL_Driver/Inc/",
+                "${workspaceFolder}/Drivers/STM32F1xx_HAL_Driver/Src/",
+                "${workspaceFolder}/Inc/",
+                "${workspaceFolder}/Src/",
+                "${workspaceFolder}/",
+                "D:/gcc-arm-none-eabi-8-2018-q4-major-win32/arm-none-eabi/include",
+                "D:/gcc-arm-none-eabi-8-2018-q4-major-win32/arm-none-eabi/include/c++/8.2.1",
+                "D:/gcc-arm-none-eabi-8-2018-q4-major-win32/arm-none-eabi/include/c++/8.2.1/arm-none-eabi/thumb/v7-m",
+                "D:/gcc-arm-none-eabi-8-2018-q4-major-win32/arm-none-eabi/include/c++/8.2.1/backward",
+                "D:/gcc-arm-none-eabi-8-2018-q4-major-win32/arm-none-eabi/include/sys",
+                "D:/gcc-arm-none-eabi-8-2018-q4-major-win32/lib/gcc/arm-none-eabi/8.2.1/include",
+                "D:/gcc-arm-none-eabi-8-2018-q4-major-win32/lib/gcc/arm-none-eabi/8.2.1/include-fixed"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "USE_HAL_DRIVER",
+                "STM32F103xE"
+            ],
+            "compilerPath": "D:\\\\LLVM\\bin\\clang-format.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

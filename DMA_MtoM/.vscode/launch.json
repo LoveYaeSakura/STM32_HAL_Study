@@ -1,0 +1,23 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/usart.elf",
+            "name": "Cortex Debug",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToMain": true, //是否执行到main函数
+            "preLaunchTask": "Build Target", //先运行Build任务,因为cortex-debug不会帮我们编译，所以要加上这句
+            "svdFile": "C:/Users/Thee/.vscode/extensions/marus25.cortex-debug-dp-stm32f1-1.0.0/data/STM32F103xx.svd",
+            "servertype": "openocd",
+            "configFiles": [
+                "./Debugger/cmsis-dap.cfg",
+                "./Debugger/stm32f1x.cfg"
+            ]
+        }
+    ]
+}

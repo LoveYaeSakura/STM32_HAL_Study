@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 1
+ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 1
   31:Src/system_stm32f1xx.c ****   *    configuration.
   32:Src/system_stm32f1xx.c ****   *        
   33:Src/system_stm32f1xx.c ****   ******************************************************************************
-ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 2
+ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s 			page 2
 
 
   34:Src/system_stm32f1xx.c ****   * @attention
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 1
   88:Src/system_stm32f1xx.c **** #if defined(STM32F100xE) || defined(STM32F101xE) || defined(STM32F101xG) || defined(STM32F103xE) ||
   89:Src/system_stm32f1xx.c **** /* #define DATA_IN_ExtSRAM */
   90:Src/system_stm32f1xx.c **** #endif /* STM32F100xE || STM32F101xE || STM32F101xG || STM32F103xE || STM32F103xG */
-ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 3
+ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s 			page 3
 
 
   91:Src/system_stm32f1xx.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 1
  145:Src/system_stm32f1xx.c **** /** @addtogroup STM32F1xx_System_Private_Functions
  146:Src/system_stm32f1xx.c ****   * @{
  147:Src/system_stm32f1xx.c ****   */
-ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 4
+ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s 			page 4
 
 
  148:Src/system_stm32f1xx.c **** 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 1
   50              		.loc 1 177 0
   51 0026 5A68     		ldr	r2, [r3, #4]
   52 0028 22F4FE02 		bic	r2, r2, #8323072
-ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 5
+ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s 			page 5
 
 
   53 002c 5A60     		str	r2, [r3, #4]
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 1
   75              		.syntax unified
   76              		.thumb
   77              		.thumb_func
-ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 6
+ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s 			page 6
 
 
   78              		.fpu softvfp
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 1
  256:Src/system_stm32f1xx.c ****   uint32_t prediv1factor = 0U;
  257:Src/system_stm32f1xx.c **** #endif /* STM32F100xB or STM32F100xE */
  258:Src/system_stm32f1xx.c ****     
-ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 7
+ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s 			page 7
 
 
  259:Src/system_stm32f1xx.c ****   /* Get SYSCLK source -------------------------------------------------------*/
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 1
  302:Src/system_stm32f1xx.c **** #else
  303:Src/system_stm32f1xx.c ****       pllmull = pllmull >> 18U;
  304:Src/system_stm32f1xx.c ****       
-ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 8
+ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s 			page 8
 
 
  305:Src/system_stm32f1xx.c ****       if (pllmull != 0x0DU)
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 1
  111 001c 1A4A     		ldr	r2, .L15+8
  112 001e 1A60     		str	r2, [r3]
  113              	.LVL5:
-ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 9
+ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s 			page 9
 
 
  114              	.L9:
@@ -510,7 +510,7 @@ ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 1
  131              		.loc 1 268 0
  132 0036 134B     		ldr	r3, .L15+4
  133              	.LVL8:
- 134 0038 134A     		ldr	r2, .L15+8
+ 134 0038 154A     		ldr	r2, .L15+16
  135 003a 1A60     		str	r2, [r3]
  269:Src/system_stm32f1xx.c ****     case 0x08U:  /* PLL used as system clock */
  136              		.loc 1 269 0
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 1
  154 004e 0AD0     		beq	.L14
  292:Src/system_stm32f1xx.c ****         {/* HSE oscillator clock divided by 2 */
  155              		.loc 1 292 0
-ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 10
+ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s 			page 10
 
 
  156 0050 0B4A     		ldr	r2, .L15
@@ -548,7 +548,7 @@ ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 1
  160 0058 0BD0     		beq	.L11
  294:Src/system_stm32f1xx.c ****         }
  161              		.loc 1 294 0
- 162 005a 0D4A     		ldr	r2, .L15+16
+ 162 005a 0E4A     		ldr	r2, .L15+20
  163 005c 02FB03F3 		mul	r3, r2, r3
  164              	.LVL15:
  165 0060 084A     		ldr	r2, .L15+4
@@ -558,7 +558,7 @@ ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 1
  169              	.L14:
  282:Src/system_stm32f1xx.c ****       }
  170              		.loc 1 282 0
- 171 0066 0A4A     		ldr	r2, .L15+16
+ 171 0066 0C4A     		ldr	r2, .L15+24
  172              	.LVL17:
  173 0068 02FB03F3 		mul	r3, r2, r3
  174              	.LVL18:
@@ -569,7 +569,7 @@ ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 1
  179              	.L11:
  298:Src/system_stm32f1xx.c ****         }
  180              		.loc 1 298 0
- 181 0072 054A     		ldr	r2, .L15+8
+ 181 0072 074A     		ldr	r2, .L15+16
  182 0074 02FB03F3 		mul	r3, r2, r3
  183              	.LVL20:
  184 0078 024A     		ldr	r2, .L15+4
@@ -582,76 +582,78 @@ ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 1
  191 0084 00000000 		.word	.LANCHOR0
  192 0088 00127A00 		.word	8000000
  193 008c 00000000 		.word	.LANCHOR1
- 194 0090 00093D00 		.word	4000000
- 195              		.cfi_endproc
- 196              	.LFE66:
- 198              		.global	APBPrescTable
- 199              		.global	AHBPrescTable
- 200              		.global	SystemCoreClock
- 201              		.section	.data.SystemCoreClock,"aw",%progbits
- 202              		.align	2
- 203              		.set	.LANCHOR0,. + 0
- 206              	SystemCoreClock:
- 207 0000 0024F400 		.word	16000000
- 208              		.section	.rodata.AHBPrescTable,"a",%progbits
- 209              		.align	2
- 210              		.set	.LANCHOR1,. + 0
- 213              	AHBPrescTable:
- 214 0000 00       		.byte	0
-ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 11
+ 194 0090 001BB700 		.word	12000000
+ 195 0094 808D5B00 		.word	6000000
+ 196 0098 00093D00 		.word	4000000
+ 197              		.cfi_endproc
+ 198              	.LFE66:
+ 200              		.global	APBPrescTable
+ 201              		.global	AHBPrescTable
+ 202              		.global	SystemCoreClock
+ 203              		.section	.data.SystemCoreClock,"aw",%progbits
+ 204              		.align	2
+ 205              		.set	.LANCHOR0,. + 0
+ 208              	SystemCoreClock:
+ 209 0000 0024F400 		.word	16000000
+ 210              		.section	.rodata.AHBPrescTable,"a",%progbits
+ 211              		.align	2
+ 212              		.set	.LANCHOR1,. + 0
+ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s 			page 11
 
 
- 215 0001 00       		.byte	0
- 216 0002 00       		.byte	0
- 217 0003 00       		.byte	0
- 218 0004 00       		.byte	0
- 219 0005 00       		.byte	0
- 220 0006 00       		.byte	0
- 221 0007 00       		.byte	0
- 222 0008 01       		.byte	1
- 223 0009 02       		.byte	2
- 224 000a 03       		.byte	3
- 225 000b 04       		.byte	4
- 226 000c 06       		.byte	6
- 227 000d 07       		.byte	7
- 228 000e 08       		.byte	8
- 229 000f 09       		.byte	9
- 230              		.section	.rodata.APBPrescTable,"a",%progbits
- 231              		.align	2
- 234              	APBPrescTable:
- 235 0000 00       		.byte	0
- 236 0001 00       		.byte	0
- 237 0002 00       		.byte	0
- 238 0003 00       		.byte	0
- 239 0004 01       		.byte	1
- 240 0005 02       		.byte	2
- 241 0006 03       		.byte	3
- 242 0007 04       		.byte	4
- 243              		.text
- 244              	.Letext0:
- 245              		.file 2 "d:\\gcc-arm-none-eabi-8-2018-q4-major-win32\\arm-none-eabi\\include\\machine\\_default_ty
- 246              		.file 3 "d:\\gcc-arm-none-eabi-8-2018-q4-major-win32\\arm-none-eabi\\include\\sys\\_stdint.h"
- 247              		.file 4 "Drivers/CMSIS/Include/core_cm3.h"
- 248              		.file 5 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h"
- 249              		.file 6 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h"
- 250              		.file 7 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h"
- 251              		.file 8 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"
-ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s 			page 12
+ 215              	AHBPrescTable:
+ 216 0000 00       		.byte	0
+ 217 0001 00       		.byte	0
+ 218 0002 00       		.byte	0
+ 219 0003 00       		.byte	0
+ 220 0004 00       		.byte	0
+ 221 0005 00       		.byte	0
+ 222 0006 00       		.byte	0
+ 223 0007 00       		.byte	0
+ 224 0008 01       		.byte	1
+ 225 0009 02       		.byte	2
+ 226 000a 03       		.byte	3
+ 227 000b 04       		.byte	4
+ 228 000c 06       		.byte	6
+ 229 000d 07       		.byte	7
+ 230 000e 08       		.byte	8
+ 231 000f 09       		.byte	9
+ 232              		.section	.rodata.APBPrescTable,"a",%progbits
+ 233              		.align	2
+ 236              	APBPrescTable:
+ 237 0000 00       		.byte	0
+ 238 0001 00       		.byte	0
+ 239 0002 00       		.byte	0
+ 240 0003 00       		.byte	0
+ 241 0004 01       		.byte	1
+ 242 0005 02       		.byte	2
+ 243 0006 03       		.byte	3
+ 244 0007 04       		.byte	4
+ 245              		.text
+ 246              	.Letext0:
+ 247              		.file 2 "d:\\gcc-arm-none-eabi-8-2018-q4-major-win32\\arm-none-eabi\\include\\machine\\_default_ty
+ 248              		.file 3 "d:\\gcc-arm-none-eabi-8-2018-q4-major-win32\\arm-none-eabi\\include\\sys\\_stdint.h"
+ 249              		.file 4 "Drivers/CMSIS/Include/core_cm3.h"
+ 250              		.file 5 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h"
+ 251              		.file 6 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h"
+ 252              		.file 7 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h"
+ 253              		.file 8 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"
+ARM GAS  C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s 			page 12
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 system_stm32f1xx.c
-C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s:16     .text.SystemInit:00000000 $t
-C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s:23     .text.SystemInit:00000000 SystemInit
-C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s:66     .text.SystemInit:00000040 $d
-C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s:73     .text.SystemCoreClockUpdate:00000000 $t
-C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s:80     .text.SystemCoreClockUpdate:00000000 SystemCoreClockUpdate
-C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s:190    .text.SystemCoreClockUpdate:00000080 $d
-C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s:234    .rodata.APBPrescTable:00000000 APBPrescTable
-C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s:213    .rodata.AHBPrescTable:00000000 AHBPrescTable
-C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s:206    .data.SystemCoreClock:00000000 SystemCoreClock
-C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s:202    .data.SystemCoreClock:00000000 $d
-C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s:209    .rodata.AHBPrescTable:00000000 $d
-C:\Users\Thee\AppData\Local\Temp\ccz6bVHd.s:231    .rodata.APBPrescTable:00000000 $d
+C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s:16     .text.SystemInit:00000000 $t
+C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s:23     .text.SystemInit:00000000 SystemInit
+C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s:66     .text.SystemInit:00000040 $d
+C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s:73     .text.SystemCoreClockUpdate:00000000 $t
+C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s:80     .text.SystemCoreClockUpdate:00000000 SystemCoreClockUpdate
+C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s:190    .text.SystemCoreClockUpdate:00000080 $d
+C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s:236    .rodata.APBPrescTable:00000000 APBPrescTable
+C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s:215    .rodata.AHBPrescTable:00000000 AHBPrescTable
+C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s:208    .data.SystemCoreClock:00000000 SystemCoreClock
+C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s:204    .data.SystemCoreClock:00000000 $d
+C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s:211    .rodata.AHBPrescTable:00000000 $d
+C:\Users\Thee\AppData\Local\Temp\ccVOIC6a.s:233    .rodata.APBPrescTable:00000000 $d
 
 NO UNDEFINED SYMBOLS
