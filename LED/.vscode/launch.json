@@ -5,19 +5,36 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "cwd": "${workspaceRoot}",
-            "executable": "./build/usart.elf",
-            "name": "Cortex Debug",
+            "name": "ARM Debug",
+            "type": "cppdbg",
             "request": "launch",
-            "type": "cortex-debug",
-            "runToMain": true, //是否执行到main函数
-            "preLaunchTask": "Build Target", //先运行Build任务,因为cortex-debug不会帮我们编译，所以要加上这句
-            "svdFile": "C:/Users/Thee/.vscode/extensions/marus25.cortex-debug-dp-stm32f1-1.0.0/data/STM32F103xx.svd",
-            "servertype": "openocd",
-            "configFiles": [
-                "./Debugger/cmsis-dap.cfg",
-                "./Debugger/stm32f1x.cfg"
-            ]
+            "stopAtEntry": false,
+            "program": "${workspaceRoot}/build/LED.elf",
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\gcc-arm-none-eabi-8-2018-q4-major-win32\\bin\\arm-none-eabi-gdb.exe", //调试工具原始路径
+            "targetArchitecture": "arm",
+            "setupCommands": [
+                {
+                    "text": "file G:/pro/STM32HAL/LED/build/LED.elf",
+                },
+                {
+                    "text": "target remote localhost:3333",
+                },
+                {
+                    "text": "monitor reset",
+                },
+                {
+                    "text": "monitor halt",
+                },
+                {
+                    "text": "load",
+                }
+            ],
+            "preLaunchTask": "build", // 在调试前预先执行的任务，此处是tasks.json中的
+            "launchCompleteCommand": "None",
         }
     ]
 }

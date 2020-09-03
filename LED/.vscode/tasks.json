@@ -4,31 +4,35 @@
     "version": "2.0.0",
     "tasks": [
         {
-            //编译
-            "label": "Build Target",
+            "label": "build",
             "type": "shell",
             "command": "make",
-            "problemMatcher": [
-                "$gcc"
+            "args": [
+                "-j4"
             ]
         },
         {
-            //先删除后编译
-            "label": "Rebuild Target",
+            "label": "clean",
             "type": "shell",
-            "command": "rm -rf build && make",
-            "problemMatcher": [
-                "$gcc"
-            ]
+            "command": "make clean",
         },
         {
-            //编译并且下载
-            "label": "Build and Download",
+            "label": "openocd",
             "type": "shell",
-            "command": "make && cp build/usart.hex Debugger/AutoDownload/bin/usart.hex && cd Debugger/AutoDownload/bin/ && ./stm32f1x_cmsisdap.bat",
-            "problemMatcher": [
-                "$gcc"
-            ]
+            "command": "openocd -f interface/stlink.cfg -f target/stm32f1x.cfg"
         }
     ]
 }
+/**
+启动调试下载器命令 openocd- f interface/ cmsis-dap.cfg-c' transport select swd- f target/stm32f1x.c
+选择下载器型号
+D: \OpenOCD-20191216-0100\share\openocd\scripts\interface
+选择芯片型号
+D: \OpenoCD-20191216-0.10.0\share\openocd\ scripts\target
+printf问题结尾加\n
+支持f1oat makefile加- u printf f1oat
+#libraries
+LiBS=-1c-1m-1 nosy
+LIBDIR=
+LDFLAGS= $(MCU)-specs=nano specs -u printf float -T$(LDSCRIPT)$(LIBDIR) $(LIBS )-Wl,-Map=$(BUILD DIR)/$(TARGET).map
+*/
